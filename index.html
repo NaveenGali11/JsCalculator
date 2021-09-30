@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Java Script Calculator</title>
+    <!-- TODO: Link To CSS File -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1 class="Heading">Simple Calculator</h1>
+    <div class="warn" />
+    <div>
+      <label for="value1">A</label>
+      <input type="text" id="value1" value="" /><br />
+      <label for="value2">B</label>
+      <input type="text" id="value2" value="" />
+    </div>
+    <div class="buttons">
+      <button id="add" value="Add" onclick="calc(this.id)">
+        Add
+      </button>
+      <button id="subtract" value="Subtract" onClick="calc(this.id)">
+        Subtract
+      </button>
+      <button id="multiply" value="Multiply" onClick="calc(this.id)">
+        Multiply
+      </button>
+      <button id="divide" value="Division" onClick="calc(this.id)">
+        Division
+      </button>
+      <button id="reset" value="Reset" onClick="calc(this.id)">Reset</button>
+    </div>
+
+    <div class="result" id="result">Your result will be displayed here.</div>
+
+    <!-- TODO: Link To Js File -->
+    <script src="index.js"></script>
+  </body>
+</html>

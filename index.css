@@ -1,0 +1,59 @@
+body {
+  background: rgb(250, 223, 223);
+  background-size: cover;
+  font-family: "Architects Daughter", cursive;
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+.Heading {
+  color: rgb(23, 148, 121);
+}
+
+.result {
+  background: rgb(219, 181, 219);
+  border-radius: 10px;
+  border-style: inset;
+  padding: 8px;
+  margin: 50px;
+  font-size: 20px;
+}
+
+div {
+  padding: 5px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+input {
+  color: rgb(25, 148, 121);
+  font-weight: bold;
+  margin: 2%;
+  text-align: center;
+}
+
+.warn {
+  margin: 20px;
+  padding: 15px;
+}
+
+button {
+  margin: 10px;
+  text-align: center;
+}
+
+#add,
+#subtract,
+#multiply,
+#divide,
+#reset,
+#value1,
+#value2 {
+  color: rgb(207, 46, 100);
+  border-radius: 5px;
+  background: rgb(204, 204, 179);
+  font-weight: bold;
+  padding: 4px;
+  height: auto;
+}
